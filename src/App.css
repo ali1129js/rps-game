@@ -1,22 +1,31 @@
+/**
+ * @Author: Ali
+ * @Date:   2019-11-21T14:45:58+01:00
+ * @Last modified by:   Ali
+ * @Last modified time: 2019-11-21T15:49:43+01:00
+ */
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+ button {
+   color :white;
+   background-color: black;
+   border-radius: 18px;
+   margin: 20px;
+   padding:15px ;
+   font-size: 2em;
+   box-shadow: 5px 5px 5px 1px red;
+ }
+button:hover{
+  box-shadow: 5px 1px 1px 1px green;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.calc {
+  background-color: black;
+  color: red;
+  font-size: 2em;
+  margin: 50px;
+  padding:50;
+  padding-bottom: 10px;
+  border-radius: 18px;
 }
