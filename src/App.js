@@ -2,7 +2,7 @@
  * @Author: Ali
  * @Date:   2019-11-21T14:46:30+01:00
  * @Last modified by:   Ali
- * @Last modified time: 2019-11-24T05:37:57+01:00
+ * @Last modified time: 2019-11-24T06:25:26+01:00
  */
 
 import React, { Component } from "react";
@@ -15,8 +15,11 @@ const weapons = ["rock", "paper", "scissors"];
 class App extends Component {
   state = {
     player: weapons[0],
-    computer: weapons[1]
+    computer: weapons[1],
+    playerScore: 0,
+    computerScore: 0
   };
+
   startGame = () => {
     let counter = 0;
     let gameInterval = setInterval(() => {
@@ -35,6 +38,7 @@ class App extends Component {
   };
   selectWinner = () => {
     const { player, computer } = this.state;
+
     if (player === computer) {
       return "It's a tie";
     } else if (
@@ -49,16 +53,17 @@ class App extends Component {
   };
   setWeapon = weapon => {
     this.setState({
-      playerOne: weapon
+      player: weapon
     });
   };
+
   render() {
-    const { player, computer, pscore, cscore } = this.state;
+    const { player, computer } = this.state;
     return (
       <div className="App">
-        <div className="names">Player:{pscore}</div>
+        <div className="names">Player</div>
         <Player weapon={player} />
-        <div className="names">Computer:{cscore}</div>
+        <div className="names">Computer</div>
         <Player weapon={computer} />
         <button onClick={() => this.setWeapon("rock")}> rock </button>
         <button onClick={() => this.setWeapon("paper")}> paper </button>

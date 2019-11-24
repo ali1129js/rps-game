@@ -2,7 +2,7 @@
  * @Author: Ali
  * @Date:   2019-11-21T14:52:09+01:00
  * @Last modified by:   Ali
- * @Last modified time: 2019-11-24T05:30:02+01:00
+ * @Last modified time: 2019-11-24T06:03:06+01:00
  */
 import React from "react";
 import rock from "./rock.png";
