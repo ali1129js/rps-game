@@ -2,7 +2,7 @@
  * @Author: Ali
  * @Date:   2019-11-21T14:46:30+01:00
  * @Last modified by:   Ali
- * @Last modified time: 2019-11-24T06:25:26+01:00
+ * @Last modified time: 2019-11-24T06:41:26+01:00
  */
 
 import React, { Component } from "react";
@@ -61,17 +61,23 @@ class App extends Component {
     const { player, computer } = this.state;
     return (
       <div className="App">
-        <div className="names">Player</div>
-        <Player weapon={player} />
-        <div className="names">Computer</div>
-        <Player weapon={computer} />
-        <button onClick={() => this.setWeapon("rock")}> rock </button>
-        <button onClick={() => this.setWeapon("paper")}> paper </button>
-        <button onClick={() => this.setWeapon("scissors")}> scissors </button>
-        <div className="calc"> {this.selectWinner()} </div>
-        <button className="start" type="button" onClick={this.startGame}>
-          Start!
-        </button>
+        <section className="names">
+          Player
+          <Player weapon={player} />
+        </section>
+        <section className="names">
+          Computer
+          <Player weapon={computer} />
+        </section>
+        <div className="">
+          <button onClick={() => this.setWeapon("rock")}> rock </button>
+          <button onClick={() => this.setWeapon("paper")}> paper </button>
+          <button onClick={() => this.setWeapon("scissors")}> scissors </button>
+          <button className="start" type="button" onClick={this.startGame}>
+            Start!
+          </button>
+          <div className="calc"> {this.selectWinner()} </div>
+        </div>
       </div>
     );
   }

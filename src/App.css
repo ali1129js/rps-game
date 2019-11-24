@@ -2,12 +2,12 @@
  * @Author: Ali
  * @Date:   2019-11-21T14:45:58+01:00
  * @Last modified by:   Ali
- * @Last modified time: 2019-11-24T05:33:52+01:00
+ * @Last modified time: 2019-11-24T07:31:52+01:00
  */
 
-.App {
-  text-align: center;
-}
+ .App {
+   text-align: center;
+ }
  button {
    color :white;
    background-color: black;
@@ -37,11 +37,11 @@ button:hover{
   border-radius: 18px;
 }
 .start {
-  background-color: red;
+  background-color: #1e90ff;
   color:black;
   font-size: 2em;
 }
 .names {
-  font-size: 2em;
-
+  font-size: 2.5em;
+float:left;
 }
