@@ -2,7 +2,7 @@
  * @Author: Ali
  * @Date:   2019-11-21T14:46:30+01:00
  * @Last modified by:   Ali
- * @Last modified time: 2019-11-24T06:41:26+01:00
+ * @Last modified time: 2019-11-24T11:34:38+01:00
  */
 
 import React, { Component } from "react";
@@ -61,15 +61,15 @@ class App extends Component {
     const { player, computer } = this.state;
     return (
       <div className="App">
-        <section className="names">
+        <div className="names">
           Player
           <Player weapon={player} />
-        </section>
-        <section className="names">
+        </div>
+        <div className="names">
           Computer
           <Player weapon={computer} />
-        </section>
-        <div className="">
+        </div>
+        <div className="playing">
           <button onClick={() => this.setWeapon("rock")}> rock </button>
           <button onClick={() => this.setWeapon("paper")}> paper </button>
           <button onClick={() => this.setWeapon("scissors")}> scissors </button>

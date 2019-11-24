@@ -2,7 +2,7 @@
  * @Author: Ali
  * @Date:   2019-11-21T14:45:58+01:00
  * @Last modified by:   Ali
- * @Last modified time: 2019-11-24T07:31:52+01:00
+ * @Last modified time: 2019-11-24T11:36:29+01:00
  */
 
  .App {
@@ -18,6 +18,7 @@
    box-shadow: 5px 5px 5px 1px red;
    border: none;
    outline:none;
+   
  }
 button:hover{
   box-shadow: 5px 5px 5px 1px yellow;
@@ -26,12 +27,12 @@ button:hover{
 }
 .calc {
   height:100px;
-
+  width:60vh;
   text-align: center;
   background-color: black;
   color: red;
   font-size: 2em;
-  margin: 15px auto;
+  border: 2px solid blue;
   padding:50px;
   padding-bottom: 10px;
   border-radius: 18px;
@@ -44,4 +45,7 @@ button:hover{
 .names {
   font-size: 2.5em;
 float:left;
+}
+.playing {
+  margin-top: 50px;
 }
