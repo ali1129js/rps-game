@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/rps-game/static/css/main.251eac1d.chunk.css",
-    "main.js": "/rps-game/static/js/main.f38a3c04.chunk.js",
-    "main.js.map": "/rps-game/static/js/main.f38a3c04.chunk.js.map",
+    "main.css": "/rps-game/static/css/main.e0f0b90d.chunk.css",
+    "main.js": "/rps-game/static/js/main.8b57ac6f.chunk.js",
+    "main.js.map": "/rps-game/static/js/main.8b57ac6f.chunk.js.map",
     "runtime-main.js": "/rps-game/static/js/runtime-main.faec31bb.js",
     "runtime-main.js.map": "/rps-game/static/js/runtime-main.faec31bb.js.map",
     "static/js/2.93b50bed.chunk.js": "/rps-game/static/js/2.93b50bed.chunk.js",
     "static/js/2.93b50bed.chunk.js.map": "/rps-game/static/js/2.93b50bed.chunk.js.map",
     "index.html": "/rps-game/index.html",
-    "precache-manifest.db42f2e8da1c07ca8457123c8ad3a9ea.js": "/rps-game/precache-manifest.db42f2e8da1c07ca8457123c8ad3a9ea.js",
+    "precache-manifest.e563cb686b04b3b19da4eec3e2657ef7.js": "/rps-game/precache-manifest.e563cb686b04b3b19da4eec3e2657ef7.js",
     "service-worker.js": "/rps-game/service-worker.js",
-    "static/css/main.251eac1d.chunk.css.map": "/rps-game/static/css/main.251eac1d.chunk.css.map"
+    "static/css/main.e0f0b90d.chunk.css.map": "/rps-game/static/css/main.e0f0b90d.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.faec31bb.js",
     "static/js/2.93b50bed.chunk.js",
-    "static/css/main.251eac1d.chunk.css",
-    "static/js/main.f38a3c04.chunk.js"
+    "static/css/main.e0f0b90d.chunk.css",
+    "static/js/main.8b57ac6f.chunk.js"
   ]
 }
