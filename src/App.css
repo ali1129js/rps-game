@@ -2,7 +2,7 @@
  * @Author: Ali
  * @Date:   2019-11-21T14:45:58+01:00
  * @Last modified by:   Ali
- * @Last modified time: 2019-11-24T11:36:29+01:00
+ * @Last modified time: 2020-02-18T08:31:20+01:00
  */
 
  .App {
@@ -15,13 +15,13 @@
    margin: 20px;
    padding:15px ;
    font-size: 2em;
-   box-shadow: 5px 5px 5px 1px red;
+   box-shadow: 5px 5px 5px 1px #2c3e50;
    border: none;
    outline:none;
-   
+
  }
 button:hover{
-  box-shadow: 5px 5px 5px 1px yellow;
+  box-shadow: 5px 5px 5px 1px #ccae62;
   cursor: pointer;
   border: none;
 }
@@ -31,7 +31,7 @@ button:hover{
   text-align: center;
   background-color: black;
   color: red;
-  font-size: 2em;
+  font-size: 2.5em;
   border: 2px solid blue;
   padding:50px;
   padding-bottom: 10px;

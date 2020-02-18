@@ -2,7 +2,7 @@
  * @Author: Ali
  * @Date:   2019-11-21T14:46:30+01:00
  * @Last modified by:   Ali
- * @Last modified time: 2019-11-24T11:34:38+01:00
+ * @Last modified time: 2020-02-18T08:29:38+01:00
  */
 
 import React, { Component } from "react";
@@ -70,12 +70,17 @@ class App extends Component {
           <Player weapon={computer} />
         </div>
         <div className="playing">
-          <button onClick={() => this.setWeapon("rock")}> rock </button>
-          <button onClick={() => this.setWeapon("paper")}> paper </button>
-          <button onClick={() => this.setWeapon("scissors")}> scissors </button>
-          <button className="start" type="button" onClick={this.startGame}>
-            Start!
-          </button>
+          <div className="">
+            <button onClick={() => this.setWeapon("rock")}> rock </button>
+            <button onClick={() => this.setWeapon("paper")}> paper </button>
+            <button onClick={() => this.setWeapon("scissors")}>
+              {" "}
+              scissors{" "}
+            </button>
+            <button className="start" type="button" onClick={this.startGame}>
+              Start!
+            </button>
+          </div>
           <div className="calc"> {this.selectWinner()} </div>
         </div>
       </div>
